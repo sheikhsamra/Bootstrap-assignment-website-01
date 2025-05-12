@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Assignment01</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- navbar section -->
+<nav class="navbar navbar-expand-lg navbar-dark ps-5 sticky-top nav">
+  <div class="container-fluid d-flex justify-content-between">
+    <a class="navbar-brand fw-bold logo" href="#">WalkWave</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link nav-links" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-links" href="#arrival">New Arrival</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-links" href="#man">Man's Collection's</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-links" href="#woman">Woman's Collection's</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-links" href="#testimonial">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-links" href="#contact">Contant</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Slider section -->
+    <div class="d-flex justify-content-center">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="width: 1500px; margin-top: 20px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active slide-images">
+            <img src="./assets/banner01.jpg" class="d-block w-100"  style="height: 600px; object-fit: cover; ">
+          </div>
+          <div class="carousel-item slide-images">
+            <img src="./assets/banner03.jpg" class="d-block w-100"  style="height: 600px; ">
+          </div>
+          <div class="carousel-item slide-images">
+            <img src="./assets/banner04.jpg" class="d-block w-100"  style="height: 600px; ">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- products Section -->
+    <h1 id="arrival">New Arrival</h1>
+    <div class="d-flex justify-content-center text-center flex-wrap gap-5 cards-section">
+      <div class="card cards" style="width: 18rem;">
+  <img src="./assets/new3.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Step Into Style</h5>
+    <p class="card-text">Stay ahead of the competition with high-performance running shoes built for champions.</p>
+    <ins>$2,000</ins>
+    <br>
+    <del>$4,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+<div class="card cards" style="width: 18rem;">
+  <img src="./assets/new2.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Engineered for Performance
+</h5>
+    <p class="card-text">Designed for runners who demand comfort, grip, and endurance in every step.</p>
+    <ins>$3,000</ins>
+    <br>
+    <del>$6,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+<div class="card cards" style="width: 18rem;">
+  <img src="./assets/new1.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Elegance in Every Step</h5>
+    <p class="card-text">Description: Discover heels that speak luxury and grace with every move.</p>
+    <ins>$12,00</ins>
+    <br>
+    <del>$24,00</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+<div class="card cards" style="width: 18rem;">
+  <img src="./assets/new4.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Built for Adventure</h5>
+    <p class="card-text">Rugged boots designed to keep up with your every step — wherever life takes you.<p>
+    <ins>$1,000</ins>
+    <br>
+    <del>$2,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+<div class="card cards" style="width: 18rem;">
+  <img src="./assets/new5.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Run the Streets</h5>
+    <p class="card-text">Lightweight sneakers built for speed, performance, and street fashion.</p>
+    <ins>$2,000</ins>
+    <br>
+    <del>$4,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+<div class="card cards" style="width: 18rem;">
+  <img src="./assets/new6.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Bold Moves Begin Here</h5>
+    <p class="card-text">Stay ahead of the competition with high-performance running shoes built for champions.</p>
+    <ins>$4,000</ins>
+    <br>
+    <del>$8,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+<div class="card cards" style="width: 18rem;">
+  <img src="./assets/new7.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Chic & Comfortable</h5>
+    <p class="card-text">Nike Pegasus Premium Women's Shoes Atmosph/Red/Silver | Running Warehouse.</p>
+    <ins>$6,000</ins>
+    <br>
+    <del>$12,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+<div class="card cards" style="width: 18rem;">
+  <img src="./assets/new8.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Run Without Limits</h5>
+    <p class="card-text">Lightweight, breathable, and built for speed — go the distance with ease.</p>
+    <ins>$6,000</ins>
+    <br>
+    <del>$12,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+</div>
+
+
+<!-- mans collection -->
+<h1 id="man">Our Man's Collection</h1>
+<div class="d-flex justify-content-center text-center flex-wrap gap-5 cards-section">
+  <div class="card cards" style="width: 18rem;">
+  <img src="./assets/casual1.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Everyday Comfort</h5>
+    <p class="card-text">Perfect shoes for all-day wear, combining style and comfort.</p>
+    <ins>$4,000</ins>
+    <br>
+    <del>$8,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+<div class="card cards" style="width: 18rem;">
+  <img src="./assets/casual2.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Casual Vibes</h5>
+    <p class="card-text">Effortless style with all-day comfort for your casual days.</p>
+    <ins>$4,000</ins>
+    <br>
+    <del>$8,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+<div class="card cards" style="width: 18rem;">
+  <img src="./assets/casual3.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Chill & Walk</h5>
+    <p class="card-text">Relaxed footwear built for your laid-back lifestyle.</p>
+    <ins>$6,000</ins>
+    <br>
+    <del>$12,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+<div class="card cards" style="width: 18rem;">
+  <img src="./assets/casual4.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Easy Style</h5>
+    <p class="card-text">Classic design with modern comfort for every casual occasion.</p>
+    <ins>$6,000</ins>
+    <br>
+    <del>$12,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+</div>
+
+<!-- womans collection -->
+<h1 id="woman">Our Woman's Collection</h1>
+<div class="d-flex justify-content-center text-center flex-wrap gap-5 cards-section">
+  <div class="card cards" style="width: 18rem;">
+  <img src="./assets/woman5.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Everyday Comfort</h5>
+    <p class="card-text">Perfect shoes for all-day wear, combining style and comfort.</p>
+    <ins>$4,000</ins>
+    <br>
+    <del>$8,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+<div class="card cards" style="width: 18rem;">
+  <img src="./assets/woman1.avif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Casual Vibes</h5>
+    <p class="card-text">Effortless style with all-day comfort for your casual days.</p>
+    <ins>$3,000</ins>
+    <br>
+    <del>$6,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+<div class="card cards" style="width: 18rem;">
+  <img src="./assets/woman3.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Princess Look</h5>
+    <p class="card-text">Relaxed footwear built for your laid-back lifestyle.</p>
+    <ins>$2,000</ins>
+    <br>
+    <del>$4,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+<div class="card cards" style="width: 18rem;">
+  <img src="./assets/woman4.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title title">Easy Style</h5>
+    <p class="card-text">Classic design with modern comfort for every casual occasion.</p>
+    <ins>$2,000</ins>
+    <br>
+    <del>$4,000</del>
+    <span>upto 50% off</span>
+    <a href="#" class="btn btn-outline-dark w-100 mt-3">Add To Cart 🛒</a>
+  </div>
+</div>
+</div>
+
+
+<!-- banner section  -->
+ <div class="card text-bg-dark w-80 text-center cards-section">
+  <img src="./assets/banner02.jpg" class="card-img" alt="...">
+  <div class="card-img-overlay overlay">
+    <h1 class="card-title">Book Your Order Now</h1>
+    <p class="card-text">Don’t miss out on the latest styles. Secure yours today with just one click!</p>
+    <button class="btn text-bg-dark ps-5 pe-5 order-btn">Order Now</button>
+  </div>
+</div>
+
+
+<h1 id="testimonial">Our Costumer's Review's</h1>
+<div class="d-flex justify-content-center mt-5 gap-5 text-center cards-section" >
+  <div class="card" style="width: 18rem; padding: 2%;">
+  <img src="./assets/customer1.png" class="card-img-top w-50 mx-auto d-block" alt="...">
+  <div class="card-body">
+    <p class="card-text">Absolutely loved the quality! The shoes are super comfortable and stylish. Got so many compliments!</p>
+    <b>— Ayesha K.</b>
+  </div>
+</div>
+<div class="card" style="width: 18rem; padding: 2%;">
+  <img src="./assets/customer2.png" class="card-img-top w-50 mx-auto d-block" alt="...">
+  <div class="card-body">
+    <p class="card-text">Fast delivery and amazing packaging. The fit was perfect and the design is just wow!</p>
+    <b>— Sara M.</b>
+  </div>
+</div>
+<div class="card"style="width: 18rem; padding: 2%;">
+  <img src="./assets/customer1.png" class="card-img-top w-50 mx-auto d-block" alt="...">
+  <div class="card-body">
+    <p class="card-text">Affordable yet premium feel. I’ll definitely be ordering more — highly recommend!</p>
+    <b>— Mehwish A.</b>
+  </div>
+</div>
+<div class="card" style="width: 18rem; padding: 2%;">
+  <img src="./assets/customer2.png" class="card-img-top w-50 mx-auto d-block" alt="...">
+  <div class="card-body">
+    <p class="card-text">From ordering to delivery, everything was smooth. These shoes made my outfit pop!"</p>
+    <b>— Fatima R.</b>
+  </div>
+</div>
+</div>
+
+
+
+
+<div class="container mt-5 mb-5 contact-container cards-section" id="contact">
+  <h2 class="text-center mb-4">Book Your Order</h2>
+  <form class="p-4 border rounded bg-light form">
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+      </div>
+    </div>
+    
+    <div class="mb-3">
+      <label for="phone" class="form-label">Phone Number</label>
+      <input type="tel" class="form-control" id="phone" placeholder="03xx-xxxxxxx" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="product" class="form-label">Shoe Product Name</label>
+      <input type="text" class="form-control" id="product" placeholder="Enter product name">
+    </div>
+
+    <div class="mb-3">
+      <label for="message" class="form-label">Additional Notes</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Any special requests?"></textarea>
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="btn w-100 mt-3 px-4 order-btn">Order Now</button>
+    </div>
+  </form>
+</div>
+
+
+<!-- footer section -->
+<footer class="text-white pt-5 pb-3 mt-5 cards-section">
+  <div class="container text-center text-md-start">
+    <div class="row">
+
+      <!-- Column 1: Brand -->
+      <div class="col-md-3 mb-3">
+        <h5 class="text-uppercase text-decoration-underline fw-bold text-secondary">WalkWave</h5>
+        <p>Your one-stop shop for stylish, affordable fashion.</p>
+      </div>
+
+      <!-- Column 2: Links -->
+      <div class="col-md-3 mb-3">
+        <h5 class="text-uppercase text-decoration-underline fw-bold text-secondary">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-white text-decoration-none">About</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Shop</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Support -->
+      <div class="col-md-3 mb-3">
+        <h5 class="text-uppercase text-decoration-underline fw-bold text-secondary">Support</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">FAQs</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Shipping</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Returns</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Social -->
+      <div class="col-md-3 mb-3">
+        <h5 class="text-uppercase text-decoration-underline fw-bold text-secondary">Follow Us</h5>
+        <a href="#" class="text-white me-2"><img src="./assets/icons8-facebook-logo-50.png" class="icons" alt=""></a>
+        <a href="#" class="text-white me-2"><img src="./assets/icons8-instagram-50.png" class="icons" alt=""></a>
+        <a href="#" class="text-white me-2"><img src="./assets/icons8-twitter-bird-50.png" class="icons" alt=""></a>
+        <a href="#" class="text-white me-2"><img src="./assets/icons8-youtube-50.png" class="icons" alt=""></a>
+      </div>
+
+    </div>
+  </div>
+  <hr class="text-white">
+  <p class="text-center mb-0">&copy; 2025 MyStore. All rights reserved.</p>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </body>
+</html>
